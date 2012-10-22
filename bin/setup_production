@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#set -x # debug output
+#set -o errexit # exit on first error
+
+export RAILS_ENV="production"
+
+export BASE_HOST="localhost"
+export SESSION_DOMAIN=""
+
+export DB_HOST="localhost"
+export DB_NAME="versative_development"
+export DB_USER="root"
+export DB_PASSWD=""
+
+export MONGOID_HOST="localhost"
+export MONGOID_DATABASE="versative_development"
+export MONGOID_USERNAME=""
+export MONGOID_PASSWORD=""
+
